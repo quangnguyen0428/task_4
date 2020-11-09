@@ -5,33 +5,33 @@
 
 .grid {
     display: grid;
-    grid-template-rows: repeat(11,1fr);
+    grid-template-rows: repeat(11, 1fr);
     gap: 5px;
 }
 
 .grid__row:first-child {
     display: grid;
-    grid-template-columns: repeat(12,1fr);
+    grid-template-columns: repeat(12, 1fr);
     gap: 0 2px;
 }
 .grid__row:nth-child(2){
     display: grid;
-    grid-template-columns: repeat(6,1fr);
+    grid-template-columns: repeat(6, 1fr);
     gap: 0 2px;
 }
 .grid__row:nth-child(3){
     display: grid;
-    grid-template-columns: repeat(4,1fr);
+    grid-template-columns: repeat(4, 1fr);
     gap: 0 2px;
 }
 .grid__row:nth-child(4){
     display: grid;
-    grid-template-columns: repeat(3,1fr);
+    grid-template-columns: repeat(3, 1fr);
     gap: 0 2px;
 }
 .grid__row:nth-child(5){
     display: grid;
-    grid-template-columns: repeat(2,1fr);
+    grid-template-columns: repeat(2, 1fr);
     gap: 0 2px;
 }
 .grid__row:nth-child(6){

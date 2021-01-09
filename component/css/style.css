@@ -1,0 +1,120 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  background: #e3e3e3;
+}
+
+ul {
+  list-style: none;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+a {
+  text-decoration: none;
+}
+
+.container {
+  width: 1200px;
+  max-width: 100%;
+  margin: 0 auto;
+}
+
+.clearfix {
+  clear: both;
+}
+
+.playlist {
+  background: #fff;
+  max-width: 375px;
+  min-width: 300px;
+}
+
+.playlist .playlist__control {
+  padding: 15px;
+  -webkit-box-shadow: 0px 5px 15px 0px rgba(0, 0, 0, 0.1);
+  box-shadow: 0px 5px 15px 0px rgba(0, 0, 0, 0.1);
+}
+
+.playlist .playlist__control span:first-child {
+  margin-right: 30px;
+  margin-left: 30px;
+}
+
+.playlist .playlist__control span {
+  font-size: 20px;
+  font-weight: 400;
+  color: #454545;
+}
+
+.playlist .playlist__control .more {
+  float: right;
+  vertical-align: middle;
+}
+
+.playlist .playlist__music__item {
+  height: 100%;
+  padding: 15px;
+}
+
+.playlist .playlist__music__item .playlist__music__item__link {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 100%;
+}
+
+.playlist .playlist__music__item .playlist__music__item__link .playlist__music__item__link__image {
+  margin-right: 15px;
+}
+
+.playlist .playlist__music__item .playlist__music__item__link .playlist__music__item__link__image img {
+  width: 100px;
+  height: 100%;
+  -o-object-fit: contain;
+     object-fit: contain;
+  border-radius: 10px;
+  -webkit-box-shadow: 0px 0px 5px 1px rgba(0, 0, 0, 0.2);
+  box-shadow: 0px 0px 5px 1px rgba(0, 0, 0, 0.2);
+}
+
+.playlist .playlist__music__item .playlist__music__item__link div:last-child {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.playlist .playlist__music__item .playlist__music__item__link div:last-child .main-name {
+  color: #454545;
+  margin-bottom: 10px;
+}
+
+.playlist .playlist__music__item .playlist__music__item__link div:last-child .sub-name, .playlist .playlist__music__item .playlist__music__item__link div:last-child .playlist__music__item__link__time {
+  color: #888;
+  font-size: 12px;
+}
+
+@media (max-width: 1200px) {
+  .container {
+    padding: 0px 15px;
+    width: 100%;
+  }
+}
+/*# sourceMappingURL=style.css.map */
